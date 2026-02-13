@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/style.css" rel="stylesheet">
-  <title>Searchify</title>
-
+  <title>My Shop</title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-  <p class="bg-amber-200 text-4xl flex justify-center mt-100">some cool text</p>
+<body class="bg-gray-100">
+
+<header class="bg-white shadow p-4 flex justify-between">
+  <h1 class="text-xl font-bold">My Shop</h1>
+  <a href="cart.html">Cart 🛒</a>
+</header>
+
+<main id="store" class="grid grid-cols-2 md:grid-cols-3 gap-4 p-4"></main>
+
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
 </body>
 </html>
